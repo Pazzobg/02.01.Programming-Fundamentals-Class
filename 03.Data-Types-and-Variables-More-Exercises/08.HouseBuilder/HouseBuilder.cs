@@ -6,18 +6,18 @@
     {
         public static void Main()
         {
-            int inputOne = int.Parse(Console.ReadLine());
-            int inputTwo = int.Parse(Console.ReadLine());
+            long inputOne = long.Parse(Console.ReadLine());
+            long inputTwo = long.Parse(Console.ReadLine());
 
             long totalPrice = 0;
 
             if (inputOne < inputTwo)
             {
-                totalPrice = ((long)inputOne * 4) + ((long)inputTwo * 10);
+                totalPrice = (inputOne * 4) + (inputTwo * 10);
             }
             else
             {
-                totalPrice = ((long)inputOne * 10) + ((long)inputTwo * 4);
+                totalPrice = (inputOne * 10) + (inputTwo * 4);
             }
 
             Console.WriteLine(totalPrice);
