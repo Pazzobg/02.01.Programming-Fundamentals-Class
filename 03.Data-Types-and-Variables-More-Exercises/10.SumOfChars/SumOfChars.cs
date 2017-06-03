@@ -12,7 +12,7 @@
             for (int i = 0; i < n; i++)
             {
                 char currentChar = char.Parse(Console.ReadLine());
-                sum += (int)currentChar;
+                sum += currentChar;
             }
 
             Console.WriteLine($"The sum equals: {sum}");
