@@ -13,22 +13,16 @@
             int counterLeft = 0;
             int counterRight = 0;
 
-            for (int checkFront = 0; checkFront < shorterLength; checkFront++)
+            for (int i = 0; i < shorterLength; i++)
             {
-                if (firstArr[checkFront] == secondArr[checkFront])
+                if (firstArr[i] == secondArr[i])
                 {
                     counterLeft++;
                 }
-                else break;
-            }
-
-            for (int checkAft = 0; checkAft < shorterLength; checkAft++)
-            {
-                if (firstArr[firstArr.Length - 1 - checkAft] == secondArr[secondArr.Length - 1 - checkAft])
+                if (firstArr[firstArr.Length - 1 - i] == secondArr[secondArr.Length - 1 - i])
                 {
                     counterRight++;
                 }
-                else break;
             }
 
             int largestCommonEnd = Math.Max(counterLeft, counterRight);
