@@ -42,19 +42,16 @@
 
             var resultList = new List<char>();
             int numsToSkip = 0;
-            int numsToTake = 0;
-            int totalNumsSkip = 0;
 
             for (int i = 0; i < takeList.Count; i++)
             {
-                totalNumsSkip += numsToSkip + numsToTake;   // 0 += 0 + 0   0 += 4 + 0 = 4      4 += 1 + 4 = 9
-
-                numsToSkip = skipList[i];                   // 4            1                   0
-                numsToTake = takeList[i];                   // 0            4                   7
+                int numsToTake = takeList[i];
 
                 resultList.AddRange(nonNumbers
-                    .Skip(totalNumsSkip)
+                    .Skip(numsToSkip)
                     .Take(numsToTake));
+
+                numsToSkip += skipList[i] + numsToTake;
             }
 
             Console.WriteLine(string.Join(string.Empty, resultList));
