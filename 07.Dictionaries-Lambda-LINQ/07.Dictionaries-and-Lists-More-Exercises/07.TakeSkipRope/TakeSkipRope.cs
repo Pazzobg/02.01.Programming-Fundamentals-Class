@@ -8,22 +8,29 @@
     {
         public static void Main()
         {
-            var input = Console.ReadLine().ToList();
+            var input = Console.ReadLine().ToCharArray();
 
-            var numsList = new List<int>();
-            var nonNumbers = new List<char>();
+            var numsList = input
+                .Where(c => char.IsDigit(c))
+                .Select(x => int.Parse(x.ToString()))
+                .ToList();
 
-            foreach (var character in input)
-            {
-                if (char.IsDigit(character))
-                {
-                    numsList.Add(int.Parse(character.ToString()));
-                }
-                else
-                {
-                    nonNumbers.Add(character);
-                }
-            }
+            var nonNumbers = input
+                .Where(c => !char.IsDigit(c))
+                .ToList();
+
+            // Below code is equivalent of LINQ methods above if we just create 2 empty numsList<int> and nonNumbers<char> lists
+            //foreach (var character in input)
+            //{
+            //    if (char.IsDigit(character))
+            //    {
+            //        numsList.Add(int.Parse(character.ToString()));
+            //    }
+            //    else
+            //    {
+            //        nonNumbers.Add(character);
+            //    }
+            //}
 
             var takeList = new List<int>();
             var skipList = new List<int>();
