@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Ladybugs", "02.Ladybugs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.NetherRealms", "03.NetherRealms\03.NetherRealms.csproj", "{73CB59A1-170F-47F1-9F3E-FC0CBC9D4B4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.RoliTheCoder", "04.RoliTheCoder\04.RoliTheCoder.csproj", "{8949DB04-3417-400C-8744-FEE2285B7314}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{73CB59A1-170F-47F1-9F3E-FC0CBC9D4B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73CB59A1-170F-47F1-9F3E-FC0CBC9D4B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73CB59A1-170F-47F1-9F3E-FC0CBC9D4B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8949DB04-3417-400C-8744-FEE2285B7314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8949DB04-3417-400C-8744-FEE2285B7314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8949DB04-3417-400C-8744-FEE2285B7314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8949DB04-3417-400C-8744-FEE2285B7314}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
