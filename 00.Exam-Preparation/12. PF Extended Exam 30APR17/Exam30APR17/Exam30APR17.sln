@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.WormTest", "01.WormTest\01.WormTest.csproj", "{BC9F4E04-08B5-4C39-B9FA-9C627617FBE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.WormIpsum", "02.WormIpsum\02.WormIpsum.csproj", "{683F2EA3-72DB-4CE8-9265-0BB9789C4DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.WormHole", "03.WormHole\03.WormHole.csproj", "{DF28A79B-AABC-493A-8365-5B1110B958F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.WormsWorldsParty", "04.WormsWorldsParty\04.WormsWorldsParty.csproj", "{DC4A453B-696C-4451-9CA6-7DA46FB5C681}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC9F4E04-08B5-4C39-B9FA-9C627617FBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9F4E04-08B5-4C39-B9FA-9C627617FBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9F4E04-08B5-4C39-B9FA-9C627617FBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9F4E04-08B5-4C39-B9FA-9C627617FBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683F2EA3-72DB-4CE8-9265-0BB9789C4DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683F2EA3-72DB-4CE8-9265-0BB9789C4DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683F2EA3-72DB-4CE8-9265-0BB9789C4DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683F2EA3-72DB-4CE8-9265-0BB9789C4DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF28A79B-AABC-493A-8365-5B1110B958F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF28A79B-AABC-493A-8365-5B1110B958F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF28A79B-AABC-493A-8365-5B1110B958F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF28A79B-AABC-493A-8365-5B1110B958F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4A453B-696C-4451-9CA6-7DA46FB5C681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4A453B-696C-4451-9CA6-7DA46FB5C681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4A453B-696C-4451-9CA6-7DA46FB5C681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4A453B-696C-4451-9CA6-7DA46FB5C681}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
