@@ -20,7 +20,7 @@
         public static void Main()
         {
             var allPokemons = new List<Pokemon>();
-            var pokeNames = new List<string>();
+            var pokeNames = new HashSet<string>();
 
             string[] input = Console.ReadLine().Split(" ->".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
 
@@ -62,21 +62,14 @@
                 input = Console.ReadLine().Split(" ->".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
             }
 
-            pokeNames = pokeNames.Distinct().ToList();
-
-            for (int i = 0; i < allPokemons.Count; i++)
+            foreach (var name in pokeNames)
             {
-                string currentName = pokeNames[i];
+                Console.WriteLine($"# {name}");
 
-                Console.WriteLine($"# {currentName}");
-
-                foreach (var member in allPokemons.Where(x => x.Name == currentName).Where(x => x.NameAlreadyPrinted == false).OrderByDescending(x => x.EvoIndex))
+                foreach (var member in allPokemons.Where(x => x.Name == name).OrderByDescending(x => x.EvoIndex))
                 {
                     Console.WriteLine($"{member.EvoType} <-> {member.EvoIndex}");
-                    member.NameAlreadyPrinted = false;
                 }
-
-
             }
         }
     }
