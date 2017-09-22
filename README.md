@@ -1,4 +1,5 @@
-# 02.01.Programming-Fundamentals-Class
-Exercises and Exams (problems and solutions) of "Programming fundamentals" module at SoftUni
+# 02.01.Programming Fundamentals-Class
+SoftUni - Tech Module
+"Programming fundamentals" course - problems and solutions of exercises and exams
 
 MAY17 - JUL17
